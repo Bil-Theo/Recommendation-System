@@ -1,0 +1,45 @@
+table{
+    border-collapse: collapse;
+}
+td, th{
+    border: 1px solid black;
+}
+h3, a{
+    margin-left: 50px;
+}
+.couleur{
+    color: red;
+}
+.img:hover{
+    width: 90%;
+    height: 110.8%;
+    transition-duration: 1.3s;
+}
+
+a{
+    color: #ff0000;
+}
+.img{
+    width: 80%;
+    height: 30%;
+}
+.picture{
+    margin: 3.99999%;
+    margin-bottom: 0.87777%;
+}
+ul{
+    list-style: none;
+    padding: 0;
+}
+.deca{
+    margin-left: 14.9999%;
+}
+.pos{
+    margin-left: 13.999%;
+}
+li{
+    display: inline;
+}
+.icon{
+    margin-left: 0px;
+}

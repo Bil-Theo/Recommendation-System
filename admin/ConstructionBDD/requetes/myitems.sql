@@ -1,0 +1,2 @@
+select distinct i.IDitem, i.titre, i.url, i.inconnu, i.`action`, i.adventure, i.animation, i.jeuneuse, i.comedie, i.crime, i.documentaire, i.drame, i.fantaisie, i.fim_noir, i.horreur, i.musical, i.mysterieux, i.romance, i.western, i.fiction, i.suspense, i.guerre from item as i, user_item_rating as ui
+	where ui.IDitem=i.IDitem group by i.IDitem having  count(*) between 	3 and 10

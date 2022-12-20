@@ -1,0 +1,260 @@
+body{
+    background-color: #202020;
+    color: whitesmoke;
+    margin: 0;
+}
+@media (prefers-color-scheme: dark) {
+    body {
+      background-color: #202020;
+    }
+  }
+#info_generale{
+    border-top: solid 1.5px white;
+    padding-bottom: 1%;
+    max-width: 78%;
+}
+#info_perso{
+    border-top: solid 1.5px white;
+    padding-top: 2%;
+    padding-bottom: 1%;
+    max-width:  78%; 
+}
+#confi{
+    border-top: solid 1.5px white;
+    padding-top: 2%;
+    padding-bottom: 1%;
+    max-width:  78%; 
+}
+#buttoninvalide{
+    background-color:  rgba(40,167,69,0.3899);
+    height: 1550%;
+    width: 10%;
+    border-radius: 5%;
+    padding-left: 1.5%;
+    padding-top: 0.8%;
+    padding-bottom: 0.8%;
+    font-weight: bold;
+    position: relative;
+    left:   30.55999%;
+}
+.message{
+    font-size: x-large;
+    font-weight: bold;
+    display: inline-block;
+    margin-bottom: 1%;
+    margin-top: 5%;
+}
+#retour{
+    background-color: #ff0000;
+    height: 43px;
+    width: 130px;
+    color: whitesmoke;
+    font-weight: bold;
+    border-radius: 5%;
+    padding-left: 1.5%;
+    padding-top: 0.8%;
+    padding-bottom: 0.8%;
+    font-weight: bold;
+    position: relative;
+    left:   377.55999px;
+    border: none;
+}
+#retour:hover{
+    background-color: rgb(53, 52, 52);
+    transition-duration: 0.8s;
+    transition-timing-function: ease-in;
+    height: 100%;
+    width: 10%;
+}
+#env{
+    background-color:  rgb(11, 184, 51);
+    height: 43px;
+    width: 130px;
+    color: whitesmoke;
+    font-weight: bold;
+    border-radius: 5%;
+    padding-left: 1.5%;
+    padding-top: 0.8%;
+    padding-bottom: 0.8%;
+    font-weight: bold;
+    position: relative;
+    left:   377.55999px;
+    border: none;
+    display: none;
+}
+
+#dtn{
+    background-color: #202020;
+    color: rgb(151, 151, 151); 
+}
+.obligatoire{
+    color: rgb(247, 17, 17);
+    font-weight: normal;
+}
+.classer{
+    display: inline-block;
+    margin: 2%;
+    margin-left: 0px;
+}
+#list{
+    background-color: #202020;
+    color: rgb(117, 114, 114);
+    height: 50px;
+    min-width: 450px;
+    padding-left: 5%;
+    border: solid 1px white;
+}
+#prof{
+    background-color: #202020;
+    color: rgb(117, 114, 114);
+    height: 50px;
+    min-width: 450px;
+    padding-left: 5%;
+    border: solid 1px white;   
+}
+label{
+    font-weight: bold;
+}
+.genre{
+    width: 15px;
+    height: 15px;
+    display: inline;
+}
+.rien{
+    display: inline-block;
+    margin-left: 1%;
+}
+a{
+    color: cyan;
+    text-decoration: none;
+}
+a:hover{
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+ul li a{
+    color: whitesmoke;
+}
+
+
+.row{
+    margin: 0 auto;
+}
+
+.form-control, .input-group-text{
+    border: none;
+    border-radius: unset;
+}
+
+nav .input-group-text{
+    border-bottom: 1px solid currentColor;
+}
+
+.form-control:focus{
+    box-shadow: none;
+    border-color: #ff0000;
+}
+
+.forms-box {
+    min-width: 350px;
+}
+
+.input{
+    background-color: #202020;
+    color: #fafafa;
+    border-bottom: solid 1px rgb(77, 77, 77);
+    caret-color: whitesmoke;
+    transition-duration: 1s;
+}
+
+.input:focus{
+    background-color: #202020;
+    color: whitesmoke ;
+}
+
+.all{
+    border: 1px solid #ff0000;
+	box-shadow: 0 0 10px 0 rgba(255, 255, 255, 0.1); 
+	border-radius: 20px;
+}
+
+.mask{
+    width: 100vh;
+    height: 100vh;
+  }
+
+#intro-example {
+    height: 100vh;
+}
+
+.bgcolor{
+    background-color: #151515;
+}
+
+.bgcolor2{
+    background-color: #202020;
+}
+
+.photo{
+    transition: 0.5s;
+    filter: grayscale(40%);
+}
+
+.photo:hover{
+    filter: grayscale(0%);
+    transform: scale(1.1);
+}
+
+.bgcolor3{
+    background-color: #353535;
+}
+
+/*but == Button*/
+.but {
+    display: inline-block;
+    line-height: 1.5;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    padding: 0.5rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 0.5rem;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+  
+@media (prefers-reduced-motion: reduce) {
+  .but{
+      transition: none;
+    }
+}
+.but-check:focus + .but, .but:focus {
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.75);
+}
+.but:disabled, .but.disabled, fieldset:disabled .but {
+    pointer-events: none;
+    opacity: 0.65;
+}
+
+.underl{
+    width: 10%;
+    margin: 0 auto;
+    height: 13px;
+    border: none;
+    background-color: #ff0000;
+}
+
+.forms-box img{
+    width: 300px; 
+    height: 80px;
+}
+
+ul{
+    list-style: none;
+}

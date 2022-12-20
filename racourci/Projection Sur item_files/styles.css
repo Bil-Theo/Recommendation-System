@@ -1,0 +1,53 @@
+td{
+    border: 2px solid black;
+    font-weight: bold;
+    padding-left: 1px;
+}
+.vert{
+    background-color: rgb(0, 255, 0);
+    font-weight: bold;
+}
+table{
+    border-collapse: collapse;
+}
+.ciel{
+    background-color: rgb(243, 243, 17);
+    margin: 50%;
+}
+.no_thing{
+    background-color: rgb(255, 0, 0);
+}
+.head_table{
+    background-color: rgb(245, 231, 214);
+}
+.pds{
+    background-color: rgb(255, 0, 191);
+}
+.info{
+    font-size: xx-large;
+    font-weight: bold;
+}
+.soustitre{
+    height: 150;
+    width: 950px;
+    background-color: rgb(245, 231, 214);
+}
+div{
+    padding: 15px;
+}
+#requis{
+    color:rgb(23, 216, 23);
+}
+#alert{
+    color: red;
+}
+#authenfication{
+    height: 200px;
+    width: 150px;
+    margin: 50%;
+    border-radius: 30%;
+    background-color: rgb(133, 134, 136);
+}
+/*#titre{
+    padding-left: 150px;
+}*/

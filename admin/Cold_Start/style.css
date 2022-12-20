@@ -1,0 +1,136 @@
+body{
+    background-color: #202020;
+    color: whitesmoke;
+    padding-left: 10%;
+}
+#info_generale{
+    border-top: solid 1.5px white;
+    padding-bottom: 1%;
+    max-width: 78%;
+}
+#info_perso{
+    border-top: solid 1.5px white;
+    padding-top: 2%;
+    padding-bottom: 1%;
+    max-width:  78%; 
+}
+#confi{
+    border-top: solid 1.5px white;
+    padding-top: 2%;
+    padding-bottom: 1%;
+    max-width:  78%; 
+}
+#buttoninvalide{
+    background-color:  rgba(40,167,69,0.3899);
+    height: 1550%;
+    width: 10%;
+    border-radius: 5%;
+    padding-left: 1.5%;
+    padding-top: 0.8%;
+    padding-bottom: 0.8%;
+    font-weight: bold;
+    position: relative;
+    left:   30.55999%;
+}
+.message{
+    font-size: x-large;
+    font-weight: bold;
+    display: inline-block;
+    margin-bottom: 1%;
+    margin-top: 5%;
+}
+#retour{
+    background-color: #ff0000;
+    height: 43px;
+    width: 130px;
+    color: whitesmoke;
+    font-weight: bold;
+    border-radius: 5%;
+    padding-left: 1.5%;
+    padding-top: 0.8%;
+    padding-bottom: 0.8%;
+    font-weight: bold;
+    position: relative;
+    left:   377.55999px;
+    border: none;
+}
+#retour:hover{
+    background-color: rgb(53, 52, 52);
+    transition-duration: 0.8s;
+    transition-timing-function: ease-in;
+    height: 100%;
+    width: 10%;
+}
+#env{
+    background-color:  rgb(11, 184, 51);
+    height: 43px;
+    width: 130px;
+    color: whitesmoke;
+    font-weight: bold;
+    border-radius: 5%;
+    padding-left: 1.5%;
+    padding-top: 0.8%;
+    padding-bottom: 0.8%;
+    font-weight: bold;
+    position: relative;
+    left:   377.55999px;
+    border: none;
+    display: none;
+}
+.input{
+    background-color: #202020;
+    color: rgb(253, 245, 245);
+    height: 50px;
+    width: 450px;
+    padding-left: 5%;
+    border: solid 1px white;
+}
+#dtn{
+    background-color: #202020;
+    color: rgb(151, 151, 151); 
+}
+.obligatoire{
+    color: rgb(247, 17, 17);
+    font-weight: normal;
+}
+.classer{
+    display: inline-block;
+    margin: 2%;
+    margin-left: 0px;
+}
+#list{
+    background-color: #202020;
+    color: rgb(117, 114, 114);
+    height: 50px;
+    min-width: 450px;
+    padding-left: 5%;
+    border: solid 1px white;
+}
+#prof{
+    background-color: #202020;
+    color: rgb(117, 114, 114);
+    height: 50px;
+    min-width: 450px;
+    padding-left: 5%;
+    border: solid 1px white;   
+}
+label{
+    font-weight: bold;
+}
+.genre{
+    width: 15px;
+    height: 15px;
+    display: inline;
+}
+.rien{
+    display: inline-block;
+    margin-left: 1%;
+}
+a{
+    color: whitesmoke;
+    text-decoration: none;
+}
+a:hover{
+    color: whitesmoke;
+    text-decoration: none;
+}

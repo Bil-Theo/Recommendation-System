@@ -1,0 +1,97 @@
+.couleur{
+    color: orange;
+}
+div{
+    padding: 10px;
+    margin-bottom:  2%;
+    margin-left: 5%;
+}
+table{
+    border-collapse: collapse;
+}
+td, th{
+    border: 1px solid black;
+}
+.etoiles{
+    margin-left: 15%;
+    display: inline-block;
+}
+#nbr_rec{
+    display: none;
+}
+.rien{
+    display: none;
+}
+.pref{
+    margin-left: 25%;
+}
+.classer{
+    display: inline-block;
+    margin: 2%;
+    margin-left: 0px;
+}
+#reco{
+    margin: 20%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    padding-left: 0%;
+    width: 60%;
+    background-color: white;
+}
+#retour{
+    text-decoration: none;
+    background-color: #ff0000;
+    height: 150%;
+    width: 10%;
+    border-radius: 5%;
+    padding-left: 3%;
+    padding-top: 0.8%;
+    padding-bottom: 0.8%;
+    font-weight: bold;
+    position: relative;
+    left:   20.55999%;
+}
+
+#env:hover{
+    background-color: rgb(53, 52, 52);
+    transition-duration: 0.8s;
+    transition-timing-function: ease-in;
+    height: 43px;
+    width: 130px;
+}
+a{
+    color: whitesmoke;
+    text-decoration: none;
+}
+a:hover{
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+#env{
+    background-color:  rgb(11, 184, 51);
+    height: 43px;
+    width: 130px;
+    color: whitesmoke;
+    font-weight: bold;
+    border-radius: 5%;
+    padding-left: 1.5%;
+    padding-top: 0.8%;
+    padding-bottom: 0.8%;
+    font-weight: bold;
+    position: relative;
+    left:   377.55999px;
+    border: none;
+    display: inline-block;
+}
+.input{
+    background-color: #202020;
+    color: rgb(253, 245, 245);
+    height: 50px;
+    width: 450px;
+    padding-left: 5%;
+    border: solid 1px white;
+}
+#mybtn{
+    margin-left: 17%;
+}

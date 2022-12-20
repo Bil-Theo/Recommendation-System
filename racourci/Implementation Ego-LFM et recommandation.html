@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<!-- saved from url=(0068)http://localhost/PFE/admin/Recommandation/Ego_LFM_User.php?input=100 -->
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<title>Implementation Ego-LFM et recommandation</title>
+<link rel="stylesheet" href="./Implementation Ego-LFM et recommandation_files/style.css">
+<script src="./Implementation Ego-LFM et recommandation_files/chart.js.téléchargement"></script>
+</head>
+<body>
+
+
+
+<title>Mes fonctions</title>
+
+<p>
+
+
+</p><h2>final = { } avec Input IDuser = 100<br></h2><br><h3> 100 appartient à la communauté 2</h3><br><h3>alors final = final union Com[2]</h3><br><h3> 100 appartient à la communauté 4</h3><br><h3>alors final = final union Com[4]</h3><br><h3> 100 appartient à la communauté 6</h3><br><h3>alors final = final union Com[6]</h3><br><h1>voici la communauté final de l'user inpute avec l'ID: 100<br></h1><div style="width: 150px;"><h3>{1;5;7;13;15;21;22;38;49;69;92;100;104;110;113;116;126;130;146;159;178;179;181;193;199;206;222;223;224;234;236;268;276;279;286;291;299;303;314;327;328;334;336;342;363;3;
+;85;88;90;128;151;158;189;194;254;264;308;312;318;344;354;358;373;380;381;42;87;119;125;184;195;270;280;295;339}</h3></div><p> Voici Top 6 Recommandations Pour l'Utilisateur avec IDuser =  100: </p><br>sim 613 et 344 = 1<br>sim 613 et 355 = 1<br>sim 613 et 691 = 1<br>sim 613 et 752 = 1<br>sim 613 et 900 = 0.99388373467362<br>sim 613 et 898 = 1<br>sim 641 et 344 = 0<br>sim 641 et 355 = 0<br>sim 641 et 691 = 0<br>sim 641 et 752 = 1<br>sim 641 et 900 = 0<br>sim 641 et 898 = 0<br>sim 754 et 344 = 0.94868329805051<br>sim 754 et 355 = 1<br>sim 754 et 691 = 1<br>sim 754 et 752 = 0.94868329805051<br>sim 754 et 900 = 1<br>sim 754 et 898 = 1<br>sim 793 et 344 = 1<br>sim 793 et 355 = 1<br>sim 793 et 691 = 0.99886813772444<br>sim 793 et 752 = 1<br>sim 793 et 900 = 1<br>sim 793 et 898 = 1<br>sim 811 et 344 = 0.93581920035741<br>sim 811 et 355 = 1<br>sim 811 et 691 = 0.99886813772444<br>sim 811 et 752 = 0.82838127625334<br>sim 811 et 900 = 0.99453584235719<br>sim 811 et 898 = 1<br>sim 533 et 344 = 1<br>sim 533 et 355 = 0<br>sim 533 et 691 = 0<br>sim 533 et 752 = 0<br>sim 533 et 900 = 0.99388373467362<br>sim 533 et 898 = 0<table class="MyRecs">
+             <tbody><tr>
+                <th>
+                   <h2> Identifiant Film </h2>
+                </th>
+                <th>
+                   <h2> Titre </h2>
+                </th>
+                <th>
+                   <h2> Note Reelle </h2>
+                </th>
+                <th>
+                   <h2> Note Predie </h2>
+                </th>
+                <th>
+                   <h2> URL </h2>
+                </th>
+             </tr>
+             <tr>
+                <td> <h3> 613 </h3> </td>
+                <td> <h3> My Man Godfrey (1936) </h3> </td>
+                <td> <h3 class="reel"> 4 </h3> </td>
+                <td> <h3 class="predi">4  </h3> </td>
+                <td> <a href="http://us.imdb.com/M/title-exact?My%20Man%20Godfrey%20(1936)">http://us.imdb.com/M/title-exact?My%20Man%20Godfrey%20(1936) </a> </td>
+              </tr>
+            <tr>
+                <td> <h3> 641 </h3> </td>
+                <td> <h3> Paths of Glory (1957) </h3> </td>
+                <td> <h3 class="reel"> 5 </h3> </td>
+                <td> <h3 class="predi">4  </h3> </td>
+                <td> <a href="http://us.imdb.com/M/title-exact?Paths%20of%20Glory%20(1957)">http://us.imdb.com/M/title-exact?Paths%20of%20Glory%20(1957) </a> </td>
+              </tr>
+            <tr>
+                <td> <h3> 754 </h3> </td>
+                <td> <h3> Red Corner (1997) </h3> </td>
+                <td> <h3 class="reel"> 4 </h3> </td>
+                <td> <h3 class="predi">4  </h3> </td>
+                <td> <a href="http://us.imdb.com/M/title-exact?Red+Corner+(1997)">http://us.imdb.com/M/title-exact?Red+Corner+(1997) </a> </td>
+              </tr>
+            <tr>
+                <td> <h3> 793 </h3> </td>
+                <td> <h3> Crooklyn (1994) </h3> </td>
+                <td> <h3 class="reel"> 5 </h3> </td>
+                <td> <h3 class="predi">4  </h3> </td>
+                <td> <a href="http://us.imdb.com/M/title-exact?Crooklyn%20(1994)">http://us.imdb.com/M/title-exact?Crooklyn%20(1994) </a> </td>
+              </tr>
+            <tr>
+                <td> <h3> 811 </h3> </td>
+                <td> <h3> Thirty-Two Short Films About Glenn Gould (1993) </h3> </td>
+                <td> <h3 class="reel"> 5 </h3> </td>
+                <td> <h3 class="predi">4  </h3> </td>
+                <td> <a href="http://us.imdb.com/M/title-exact?Thirty-Two%20Short%20Films%20About%20Glenn%20Gould%20(1993)">http://us.imdb.com/M/title-exact?Thirty-Two%20Short%20Films%20About%20Glenn%20Gould%20(1993) </a> </td>
+              </tr>
+            <tr>
+                <td> <h3> 533 </h3> </td>
+                <td> <h3> Daytrippers, The (1996) </h3> </td>
+                <td> <h3 class="reel"> 4 </h3> </td>
+                <td> <h3 class="predi">4  </h3> </td>
+                <td> <a href="http://us.imdb.com/M/title-exact?Daytrippers%2C%20The%20(1996)">http://us.imdb.com/M/title-exact?Daytrippers%2C%20The%20(1996) </a> </td>
+              </tr>
+            </tbody></table><br>613 et 613:<br><br>4 et 4 donnent val= 0<br><br>641 et 641:<br><br>5 et 4 donnent val= 0.0062696697256545<br><br>754 et 754:<br><br>4 et 4 donnent val= 0<br><br>793 et 793:<br><br>5 et 4 donnent val= 0.0062696697256545<br><br>811 et 811:<br><br>5 et 4 donnent val= 0.0062696697256545<br><br>533 et 533:<br><br>4 et 4 donnent val= 0<br><div style="
+                        background-color: green;
+                        margin-left: 20%;
+                        margin-top: 10%;
+                        width: 30%; "><h1>RMSLE est Bonne: 94.401040397692</h1><br></div> 
+
+<div margin="50px">
+        <canvas id="grapheError" width="1334" height="666" style="display: block; box-sizing: border-box; height: 740px; width: 1482.22px;"></canvas>
+    </div><script src="./Implementation Ego-LFM et recommandation_files/myChart.js.téléchargement"></script>
+
+</body></html>
